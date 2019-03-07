@@ -1,0 +1,21 @@
+Dependencies for Project 'Versuch4', Target 'Simulator': (DO NOT MODIFY !)
+F (.\main.c)(0x57569D0C)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx\lpc11xx.h)(0x532C567A)
+I (C:\Program Files\Keil\ARM\RV31\INC\core_cm0.h)(0x4A40DC8A)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x532C567A)
+I (spi.h)(0x5731A326)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\system_LPC11xx.c)(0x5731A326)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx"-o .\system_lpc11xx.o --omf_browse .\system_lpc11xx.crf --depend .\system_lpc11xx.d)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x532C567A)
+I (C:\Program Files\Keil\ARM\RV31\INC\core_cm0.h)(0x4A40DC8A)
+I (C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x532C567A)
+F (.\startup_LPC11xx.s)(0x5731A326)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx"--list .\startup_lpc11xx.lst --xref -o .\startup_lpc11xx.o --depend .\startup_lpc11xx.d)
+F (.\spi.c)(0x5731A326)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx"-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+I (C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx\lpc11xx.h)(0x532C567A)
+I (C:\Program Files\Keil\ARM\RV31\INC\core_cm0.h)(0x4A40DC8A)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x532C567A)
+F (.\picture.c)(0x5731F044)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files\Keil\ARM\RV31\INC"-I "C:\Program Files\Keil\ARM\CMSIS\Include"-I "C:\Program Files\Keil\ARM\Inc\NXP\LPC11xx"-o .\picture.o --omf_browse .\picture.crf --depend .\picture.d)

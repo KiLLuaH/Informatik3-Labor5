@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\main.o"
+".\system_lpc11xx.o"
+".\startup_lpc11xx.o"
+".\spi.o"
+".\picture.o"
+--strict --scatter ".\Versuch4.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Versuch4.map" -o .\Versuch4.axf
